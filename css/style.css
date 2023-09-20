@@ -84,7 +84,7 @@ body {
 }
 .landing .info h1 {
     color: #ccd7f7;
-    font-size: 80px;
+    font-size: 70px;
     margin: 30px 0;
 }
 .landing .info p:last-of-type {
@@ -171,8 +171,7 @@ body {
     position: relative;
     background-color: white;
     border-radius: 6px;
-    width: 200px;
-    height: 200px;
+    width: 250px;
     cursor: pointer;
 }
 .about .cont .image .box::before {
@@ -254,6 +253,9 @@ body {
     padding: 10px;
     cursor: pointer;
     transition: 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 .projects .project .info ul li img {
     width: 20px;
